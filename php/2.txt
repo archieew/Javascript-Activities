@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Course Code</th>
+    <th>Course Title</th>
+    <th>Grades</th>
+  </tr>
+  <tr>
+    <td>2CALCULUS</td>
+    <td>CALCULUS</td>
+    <td>1.00</td>
+    <td> 
+  </tr>
+  <tr>
+    <td>2PROBSTATS</td>
+    <td>PROBABILITY AND STATISTICS</td>
+    <td>1.75</td>
+  </tr>
+  <tr>
+    <td>4ETHICS</td>
+    <td>ETHICS</td>
+    <td>1.00</td>
+  </tr>
+  <tr>
+    <td>6DSALGO</td>
+    <td>DATA STRUCTURES AMD ALGORITHMS</td>
+    <td>1.50</td>
+  </tr>
+  <tr>
+    <td>6OOPLANG</td>
+    <td>OBJECT-ORIENTED PROGRAMMING</td>
+    <td>1.75</td>
+  </tr>
+  <tr>
+    <td>6OSAPP</td>
+    <td>OPERATING SYSTEMS APPLICATION</td>
+    <td>2.50</td>
+  </tr>
+  <tr>
+    <td>6WEBTECHL</td>
+    <td>WEB TECHNOLOGIES</td>
+    <td>1.00</td>
+  </tr>
+  <tr>
+    <td>7PE</td>
+    <td>PE 3-PHYSICAL ACTIVITIES TOWARDS HEALTH</td>
+    <td>1.50</td>
+  </tr>
+  <tr>
+  	<td> Average: </td>
+  </tr>
+  <tr>
+  	<td> Distinction: </td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+

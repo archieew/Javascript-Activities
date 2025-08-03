@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$g = 102;
+
+if ($g >= 90 && $g <= 94 ) {
+  echo "Cum Laude";
+  } 
+  elseif ($g >=95 && $g <= 97) {
+  echo "Magna Cum Laude!";
+  } 
+  elseif ($g >=98 && $g <= 100) {
+  echo "Suma Cum Laude";
+  }
+  elseif ($g < 90) {
+  echo "Average";
+  }
+  else {
+  echo "Error";
+  }
+?>
+ 
+</body>
+</html>
